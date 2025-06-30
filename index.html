@@ -22,61 +22,59 @@
     <!-- Fixed-width container for the whole site -->
     <div class="max-w-screen-xl mx-auto bg-gray-50 shadow-2xl rounded-lg">
 
-    <!-- Header -->
-    <header class="bg-white shadow-md sticky top-0 z-50">
-        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
-            <div class="flex items-center space-x-4">
-                 <img src="images/CVL Logo minus other logos.png" alt="CVL 12 Workshop Logo" class="h-16"></a>
-                 <a href="#" class="nav-link"><img src="images/CVL Logo.png" alt="CVL Logor" class="h-16"></a>
+        <!-- Header -->
+        <header class="bg-white shadow-md sticky top-0 z-50 rounded-t-lg">
+            <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+                <div class="flex items-center space-x-4">
+                     <a href="#home" class="nav-link"><img src="images/CVL12 logo.jpg" alt="CVL 12 Workshop Logo" class="h-16 rounded-lg"></a>
+                     <a href="#" class="nav-link"><img src="images/CVL Logo.png" alt="CVL Logo" class="h-16 rounded-lg"></a>
+                </div>
+                <div class="hidden md:flex items-center space-x-6">
+                    <a href="#about" class="nav-link text-gray-600 hover:text-blue-600">About</a>
+                    <a href="#program" class="nav-link text-gray-600 hover:text-blue-600">Program</a>
+                    <a href="#locations" class="nav-link text-gray-600 hover:text-blue-600">Locations</a>
+                    <a href="#costs" class="nav-link text-gray-600 hover:text-blue-600">Costs</a>
+                    <a href="#dates" class="nav-link text-gray-600 hover:text-blue-600">Important Dates</a>
+                    <a href="#committees" class="nav-link text-gray-600 hover:text-blue-600">Committees</a>
+                    <a href="#contact" class="nav-link text-gray-600 hover:text-blue-600">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="menu-btn" class="text-gray-600 focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                    </button>
+                </div>
+            </nav>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden hidden px-6 pt-2 pb-4 space-y-2 bg-white">
+                <a href="#about" class="nav-link block text-gray-600 hover:text-blue-600">About</a>
+                <a href="#program" class="nav-link block text-gray-600 hover:text-blue-600">Program</a>
+                <a href="#locations" class="nav-link block text-gray-600 hover:text-blue-600">Locations</a>
+                <a href="#costs" class="nav-link block text-gray-600 hover:text-blue-600">Event Details</a>
+                <a href="#dates" class="nav-link block text-gray-600 hover:text-blue-600">Important Dates</a>
+                <a href="#committees" class="nav-link block text-gray-600 hover:text-blue-600">Committees</a>
+                <a href="#contact" class="nav-link block text-gray-600 hover:text-blue-600">Contact</a>
             </div>
-            <div class="hidden md:flex items-center space-x-6">
-                <a href="#about" class="nav-link text-gray-600 hover:text-blue-600">About</a>
-                <a href="#program" class="nav-link text-gray-600 hover:text-blue-600">Program</a>
-                <a href="#locations" class="nav-link text-gray-600 hover:text-blue-600">Locations</a>
-                <a href="#costs" class="nav-link text-gray-600 hover:text-blue-600">Event Details</a>
-                <a href="#dates" class="nav-link text-gray-600 hover:text-blue-600">Important Dates</a>
-                <a href="#committees" class="nav-link text-gray-600 hover:text-blue-600">Committees</a>
-                <a href="#contact" class="nav-link text-gray-600 hover:text-blue-600">Contact</a>
-            </div>
-            <div class="md:hidden">
-                <button id="menu-btn" class="text-gray-600 focus:outline-none">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"></path></svg>
-                </button>
-            </div>
-        </nav>
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="md:hidden hidden px-6 pt-2 pb-4 space-y-2 bg-white">
-            <a href="#about" class="nav-link block text-gray-600 hover:text-blue-600">About</a>
-            <a href="#program" class="nav-link block text-gray-600 hover:text-blue-600">Program</a>
-            <a href="#locations" class="nav-link block text-gray-600 hover:text-blue-600">Locations</a>
-            <a href="#costs" class="nav-link block text-gray-600 hover:text-blue-600">Costs</a>
-            <a href="#dates" class="nav-link block text-gray-600 hover:text-blue-600">Important Dates</a>
-            <a href="#committees" class="nav-link block text-gray-600 hover:text-blue-600">Committees</a>
-            <a href="#contact" class="nav-link block text-gray-600 hover:text-blue-600">Contact</a>
-        </div>
-    </header>
+        </header>
 
-    <!-- Page Wrapper -->
-    <div id="page-content">
+        <!-- Page Wrapper -->
+        <div id="page-content">
 
-        <!-- Home Page Content -->
-        <div id="home-page">
-            <!-- Hero Section -->
-            <section class="hero-section text-white">
-                <div class="bg-black bg-opacity-50 min-h-[60vh] flex items-center">
-                    <div class="container mx-auto px-6 text-center">
-                        <h1 class="text-4xl md:text-6xl font-bold mb-4 leading-tight">12th Workshop on Volcanic Lakes</h1>
-                        <p class="text-xl md:text-2xl font-light mb-2">Pampanga and Laguna, Philippines</p>
-                        <p class="text-lg md:text-xl font-semibold">March 9-18, 2026</p>
+            <!-- Home Page Content -->
+            <div id="home-page">
+                <!-- Hero Section -->
+                <section class="hero-section text-white rounded-b-lg overflow-hidden relative">
+                    <div class="bg-black bg-opacity-60 min-h-[50vh] flex items-center">
+                        <div class="container mx-auto px-6 text-center">
+                            <h1 class="text-4xl md:text-6xl font-bold mb-4 leading-tight">12th IAVCEI Commission on Volcanic Lakes Workshop</h1>
+                            <p class="text-xl md:text-2xl font-light mb-2">Pampanga and Laguna, Philippines</p>
+                            <p class="text-lg md:text-xl font-semibold">March 9-17, 2026</p>
+                        </div>
                     </div>
-                </div>
-                </div>
                     <!-- Text in upper right corner -->
                     <div class="absolute top-4 right-6 text-white text-sm md:text-base font-semibold bg-black bg-opacity-40 px-3 py-1 rounded-md">
                         IAVCEI Commission on Volcanic Lakes
                     </div>
-            </section>
-
+                </section>
             <!-- Main Content -->
             <main class="container mx-auto px-6 py-12">
                 <!-- About/Invitation Section -->
