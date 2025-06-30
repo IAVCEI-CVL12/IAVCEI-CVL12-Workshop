@@ -9,19 +9,11 @@
     <style>
         body {
             font-family: 'Inter', sans-serif;
-        }
-        .hero-section {
+            /* A subtle pattern for the fixed background */
             background-image: url('https://gttp.images.tshiftcdn.com/308790/x/0/?w=2897&fit=crop&q=62&h=1200&dpr=2&ixlib=react-9.8.1');
-            background-size: cover;
+            background-attachment: fixed; /* This makes the background stationary */
             background-position: center;
-        }
-        .committee-content {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.5s ease-in-out;
-        }
-        .committee-content.open {
-            max-height: 1000px; /* Adjust if list is longer */
+            background-size: auto; /* Use 'auto' or 'repeat' for patterns */
         }
     </style>
 </head>
