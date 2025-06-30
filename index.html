@@ -9,51 +9,48 @@
     <style>
         body {
             font-family: 'Inter', sans-serif;
-           .hero-section {
+        }
+        .hero-section {
             background-image: url('https://gttp.images.tshiftcdn.com/308790/x/0/?w=2897&fit=crop&q=62&h=1200&dpr=2&ixlib=react-9.8.1');
             background-size: cover;
             background-position: center;
         }
     </style>
 </head>
-<body class="bg-gray-200 text-gray-800">
+<body class="bg-gray-50 text-gray-800">
 
-    <!-- Fixed-width container for the whole site -->
-    <div class="max-w-screen-xl mx-auto bg-gray-50 shadow-2xl rounded-lg">
-
-        <!-- Header -->
-        <header class="bg-white shadow-md sticky top-0 z-50 rounded-t-lg">
-            <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
-                <div class="flex items-center space-x-4">
-                     <a href="#home" class="nav-link"><img src="https://i.imgur.com/EjjgFfE.jpeg" alt="CVL 12 Workshop Logo" class="h-16 rounded-lg"></a>
-                     <a href="#" class="nav-link"><img src="images/CVL Logo.png" alt="CVL Logo" class="h-16 rounded-lg"></a>
-                </div>
-                <div class="hidden md:flex items-center space-x-6">
-                    <a href="#about" class="nav-link text-gray-600 hover:text-blue-600">About</a>
-                    <a href="#program" class="nav-link text-gray-600 hover:text-blue-600">Program</a>
-                    <a href="#locations" class="nav-link text-gray-600 hover:text-blue-600">Locations</a>
-                    <a href="#event details" class="nav-link text-gray-600 hover:text-blue-600">Event Details</a>
-                    <a href="#dates" class="nav-link text-gray-600 hover:text-blue-600">Important Dates</a>
-                    <a href="#committees" class="nav-link text-gray-600 hover:text-blue-600">Committees</a>
-                    <a href="#contact" class="nav-link text-gray-600 hover:text-blue-600">Contact</a>
-                </div>
-                <div class="md:hidden">
-                    <button id="menu-btn" class="text-gray-600 focus:outline-none">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
-                    </button>
-                </div>
-            </nav>
-            <!-- Mobile Menu -->
-            <div id="mobile-menu" class="md:hidden hidden px-6 pt-2 pb-4 space-y-2 bg-white">
-                <a href="#about" class="nav-link block text-gray-600 hover:text-blue-600">About</a>
-                <a href="#program" class="nav-link block text-gray-600 hover:text-blue-600">Program</a>
-                <a href="#locations" class="nav-link block text-gray-600 hover:text-blue-600">Locations</a>
-                <a href="#Event Details" class="nav-link block text-gray-600 hover:text-blue-600">Event Details</a>
-                <a href="#dates" class="nav-link block text-gray-600 hover:text-blue-600">Important Dates</a>
-                <a href="#committees" class="nav-link block text-gray-600 hover:text-blue-600">Committees</a>
-                <a href="#contact" class="nav-link block text-gray-600 hover:text-blue-600">Contact</a>
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                 <a href="#home" class="nav-link"><img src="https://www.phivolcs.dost.gov.ph/images/cvl/CVL-12-logo-v2.png" alt="CVL 12 Workshop Logo" class="h-16"></a>
             </div>
-        </header>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#about" class="nav-link text-gray-600 hover:text-blue-600">About</a>
+                <a href="#program" class="nav-link text-gray-600 hover:text-blue-600">Program</a>
+                <a href="#locations" class="nav-link text-gray-600 hover:text-blue-600">Locations</a>
+                <a href="#costs" class="nav-link text-gray-600 hover:text-blue-600">Costs</a>
+                <a href="#dates" class="nav-link text-gray-600 hover:text-blue-600">Important Dates</a>
+                <a href="#committees" class="nav-link text-gray-600 hover:text-blue-600">Committees</a>
+                <a href="#contact" class="nav-link text-gray-600 hover:text-blue-600">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-gray-600 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden px-6 pt-2 pb-4 space-y-2 bg-white">
+            <a href="#about" class="nav-link block text-gray-600 hover:text-blue-600">About</a>
+            <a href="#program" class="nav-link block text-gray-600 hover:text-blue-600">Program</a>
+            <a href="#locations" class="nav-link block text-gray-600 hover:text-blue-600">Locations</a>
+            <a href="#costs" class="nav-link block text-gray-600 hover:text-blue-600">Costs</a>
+            <a href="#dates" class="nav-link block text-gray-600 hover:text-blue-600">Important Dates</a>
+            <a href="#committees" class="nav-link block text-gray-600 hover:text-blue-600">Committees</a>
+            <a href="#contact" class="nav-link block text-gray-600 hover:text-blue-600">Contact</a>
+        </div>
+    </header>
 
         <!-- Page Wrapper -->
         <div id="page-content">
