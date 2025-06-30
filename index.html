@@ -9,15 +9,18 @@
     <style>
         body {
             font-family: 'Inter', sans-serif;
-        }
-        .hero-section {
-            background-image: url('https://gttp.images.tshiftcdn.com/308790/x/0/?w=2897&fit=crop&q=62&h=1200&dpr=2&ixlib=react-9.8.1');
-            background-size: cover;
+            /* A subtle pattern for the fixed background */
+            background-image: url('https://gttp.images.tshiftcdn.com/308790/x/0/?w=2897&fit=crop&q=62&h=1200&dpr=2&ixlib=react-9.8.1'');
+            background-attachment: fixed; /* This makes the background stationary */
             background-position: center;
+            background-size: auto; /* Use 'auto' or 'repeat' for patterns */
         }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-800">
+<body class="bg-gray-200 text-gray-800">
+
+    <!-- Fixed-width container for the whole site -->
+    <div class="max-w-screen-xl mx-auto bg-gray-50 shadow-2xl rounded-lg">
 
     <!-- Header -->
     <header class="bg-white shadow-md sticky top-0 z-50">
