@@ -197,26 +197,67 @@
                     </div>
                 </section>
                 
-                <!-- Sponsors -->
-                    <section id="sponsors" class="mb-16 scroll-mt-20">
-                        <h2 class="text-3xl font-bold text-center mb-8 text-blue-800">Sponsors</h2>
-                        <!-- Original Sponsors Grid - Now directly visible -->
-                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto text-center">
-                            <!-- Sponsor 1 -->
-                            <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center justify-center h-48 border border-gray-200">
-                                <img src="https://placehold.co/200x100/EEEEEE/333333?text=IAVCEI" alt="IAVCEI Logo" class="h-24 mb-4 object-contain rounded-md">
-                                <p class="font-semibold text-gray-700">IAVCEI</p>
+                <!-- Committees Section - Now Collapsible -->
+                    <section id="committees" class="mb-16 scroll-mt-20">
+                        <h2 class="text-3xl font-bold text-center mb-8 text-blue-800">Committees</h2>
+                        <div class="bg-white p-8 rounded-lg shadow-lg max-w-4xl mx-auto space-y-4">
+
+                            <!-- Local Organizing Committee Tab -->
+                            <div class="committee-tab">
+                                <button class="committee-toggle w-full text-left py-4 px-6 bg-blue-100 text-blue-800 font-semibold rounded-lg flex justify-between items-center hover:bg-blue-200 transition-colors duration-200">
+                                    <span>Local Organizing Committee</span>
+                                    <svg class="committee-arrow w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                                </button>
+                                <div class="committee-content hidden mt-2 pt-4 border-t border-gray-200">
+                                    <ul class="list-disc list-inside space-y-1">
+                                        <li>Teresito C. Bacolcol (DOST-PHIVOLCS)</li>
+                                        <li>Ma. Mylene M. Villegas (DOST-PHIVOLCS)</li>
+                                        <li>Raymond Patrick R. Maximo (DOST-PHIVOLCS)</li>
+                                        <li>Jeffrey R. Perez (DOST-PHIVOLCS)</li>
+                                        <li>Mylene L. Mañalac (DOST-PHIVOLCS)</li>
+                                        <li>Ricardo A. David, Jr. (DOST-PHIVOLCS)</li>
+                                        <li>And many more from DOST-PHIVOLCS...</li>
+                                    </ul>
+                                </div>
                             </div>
-                            <!-- Sponsor 2 -->
-                            <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center justify-center h-48 border border-gray-200">
-                               <img src="https://placehold.co/200x100/EEEEEE/333333?text=DOST-PHIVOLCS" alt="DOST-PHIVOLCS Logo" class="h-24 mb-4 object-contain rounded-md">
-                                <p class="font-semibold text-gray-700">DOST-PHIVOLCS</p>
+
+                            <!-- Scientific Committee Tab -->
+                            <div class="committee-tab">
+                                <button class="committee-toggle w-full text-left py-4 px-6 bg-blue-100 text-blue-800 font-semibold rounded-lg flex justify-between items-center hover:bg-blue-200 transition-colors duration-200">
+                                    <span>Scientific Committee</span>
+                                    <svg class="committee-arrow w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                                </button>
+                                <div class="committee-content hidden mt-2 pt-4 border-t border-gray-200">
+                                    <ul class="list-disc list-inside space-y-1">
+                                        <li>Jacopo Cabassi (CNR-IGG, Italy)</li>
+                                        <li>Agnes Mazot (GNS Science, New Zealand)</li>
+                                        <li>Jennifer Lewicki (USGS, USA)</li>
+                                        <li>Franco Tassi (University of Florence, Italy)</li>
+                                        <li>Zachary Smith (University of Hawaii, USA)</li>
+                                        <li>Giovanni Chiodini (INGV, Italy)</li>
+                                        <li>Takeshi Ohba (University of Tokyo, Japan)</li>
+                                        <li>And others from international institutions...</li>
+                                    </ul>
+                                </div>
                             </div>
-                            <!-- Sponsor 3 -->
-                            <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center justify-center h-48 border border-gray-200">
-                               <img src="https://placehold.co/200x100/EEEEEE/333333?text=GSP" alt="Geological Society of the Philippines Logo" class="h-24 mb-4 object-contain rounded-md">
-                                <p class="font-semibold text-gray-700">Geological Society of the Philippines</p>
+
+                            <!-- Steering Committee Tab -->
+                            <div class="committee-tab">
+                                <button class="committee-toggle w-full text-left py-4 px-6 bg-blue-100 text-blue-800 font-semibold rounded-lg flex justify-between items-center hover:bg-blue-200 transition-colors duration-200">
+                                    <span>Steering Committee</span>
+                                    <svg class="committee-arrow w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                                </button>
+                                <div class="committee-content hidden mt-2 pt-4 border-t border-gray-200">
+                                    <ul class="list-disc list-inside space-y-1">
+                                        <li>Jacopo Cabassi (CVL Chair)</li>
+                                        <li>Agnes Mazot (CVL Co-Chair)</li>
+                                        <li>Felipe Aguilera Barazza (CVL Secretary)</li>
+                                        <li>Dmitri Rouwet (CVL Past-Chair)</li>
+                                        <li>And other key CVL members...</li>
+                                    </ul>
+                                </div>
                             </div>
+
                         </div>
                     </section>
                 
